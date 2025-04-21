@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    font-family: "Poppins";
+}
+body{
+    margin:10px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #F1EFEC;   
+    height: 2rem;
+}
+.logog{
+    padding: 10px;
+    margin-top: 4px;
+}
+a>img{
+   width: 7.5rem;
+
+}
+.topnav{
+    display: flex;
+    gap:1.5rem;
+    transition: 0.5s ease all;
+    font-size: 1.5rem;  
+}
+.topnav>a{
+    text-decoration: none;
+    color:black;
+    &:hover{
+        color:blue;
+    }
+}
+.welcome{
+    margin:10px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #f1efec;
+
+}
+.discrip{
+    width: 400
+}
+.welcome>span{
+    font-size:4rem;
+}
+.welcome>img{
+    margin-top:10px;
+    margin-left: 15px;
+}
+.poster1,.poster2{
+	display:flex;
+    align-items:center;
+  	font-size:4rem;
+  	font-weight:300;
+  	gap:20px;
+  	background-color:#F1EFEC;
+  	padding:10px;
+	margin:10px;
+}
+.posterimg{
+    width: 20rem;
+    border-radius:15px;
+}
+.demo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.demo>span{
+    font-weight: 300;
+    font-size:4rem;
+}
+footer{
+    display: flex;
+    background-color:#222222;
+    color:#fff;
+    gap:20rem;
+    text-align: center;
+}
+footer>span{
+    width: 20rem;
+}
+.quicklinks{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.quicklinks>a{
+    text-decoration:none;
+    color:#fff;
+    &:hover{
+    color: blue;}
+}
